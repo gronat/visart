@@ -4,19 +4,18 @@
 \documentclass[runningheads, table]{llncs}
 \usepackage{amsmath,amssymb} % define this before the line numbering.
 \usepackage{ruler}
-\usepackage{color}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[table]{xcolor}
 \usepackage{subfigure}
 \usepackage[width=122mm,left=12mm,paperwidth=146mm,height=193mm,top=12mm,paperheight=217mm]{geometry}
 %\usepackage{tikz}
 \usepackage[percent]{overpic}
 \usepackage{array,multirow,graphicx}
 \usepackage{verbatim}
+\usepackage{tabularx}
 
 
-
-
-
-
+\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
 
 \begin{document}
 % \renewcommand\thelinenumber{\color[rgb]{0.2,0.5,0.8}\normalfont\sffamily\scriptsize\arabic{linenumber}\color[rgb]{0,0,0}}
@@ -50,7 +49,6 @@ It's difficult to make any one sweeping statement about Madrid architecture. As 
 
 \section{Related work}
 
-
 \section{Approach overview}
 Unlike \cite{Doersch} our goal is not to learn discriminative patches for different architecture styles and visual attributes. Instead we aim on learning our linear SVM on bag-of-words-like representation since we want to classify the whole appearance of the image. Moreover, our goal is to learn a cheap and scalable pipeline that eventually allows to process millions of images.
 
@@ -64,32 +62,45 @@ In this section we first describe a collection of the data followed by descripti
   \vspace{-1mm}
   We have designed a simple web-based annotation interface in order to collect image labels for a random set of Google streetview images described above. We have asked nine annotaters to label a given subset of images. Rather then  classifying each of many Madrid architecture styles (Castilian baroque, Gothic, Romanesque, Neoclassical, Baroque, Bourbon rococo etc.) we asked annotaters to classify the architecture appearance in one of four classes: \emph{Classical residential}, \emph{Contemporary-residential} (modern buildings, second half of 20th century), \emph{Non-residential} (office buildings, factories, shopping centers) and \emph{Monumental}. 
 
-
   \begin{table}[t]
   \centering
     \begin{tabular}{|lcc|}
       \hline
-      Category        &     $\#$ of labeled         & \hspace{3mm} E[AP]    \\
-                      &     \hspace{3mm} images     & \hspace{3mm} [$\%$]     \\
+      \rowcolor{maroon!70}
+      \hspace{10mm} \textbf{Category}   &  \textbf{$\#$ of labeled} \hspace{3mm} & \hspace{3mm} \textbf{E[AP]} \hspace{2mm}    \\
+      \rowcolor{maroon!70}
+                      &     \hspace{0mm} \textbf{images}     & \hspace{3mm} \textbf{[$\%$]}     \\
       \hline
       \hline
-      \textbf{Architecture style:} & &\\
+      \rowcolor{maroon!40} \textbf{Architecture style:} & &\\
+      \rowcolor{maroon!10}
         Classical residential           & 2702 & 65.0 \\
+        \rowcolor{maroon!10}
         Contemporary residential        & 1431 & 69.0 \\
+        \rowcolor{maroon!10}
         Contemporary non-residential    & 1032 & 39.0 \\
+        \rowcolor{maroon!10}
         Monumental                      & 236  & 28.2 \\
       \hline
-      \textbf{Vegetation:}  & &\\
+      \rowcolor{maroon!40} \textbf{Vegetation:}  & &\\
+      \rowcolor{maroon!10}
         Dense               & 1219 & 81.1 \\
+        \rowcolor{maroon!10}
         Loose               & 2567 & 94.9 \\
       \hline
-      \textbf{View:} & &\\
+      \rowcolor{maroon!40} \textbf{View:} & &\\
+        \rowcolor{maroon!10}
         Open view           & 911  & 71.5 \\
+        \rowcolor{maroon!10}
         Close view          & 3767 & 94.4 \\
+        \rowcolor{maroon!10}
         Partially open      & 2509 & 71.7 \\
       \hline
-      \textbf{Other:} & &\\
+      \rowcolor{maroon!40} \textbf{Other:} & &\\
+      \rowcolor{maroon!10}
         Graffiti           & 605 & 50.6 \\
+        \rowcolor{maroon!10}
+        Not-graffiti        & & \\
       \hline
     \end{tabular}
     \vspace{3mm}
@@ -142,8 +153,9 @@ where $t_k$ is a threshold for given class $k$, and than we use this score as a 
 \section{Experimental details}
 \label{sec:exprm}
 
-% Figure with panorama
+%%% Figure with panorama
 \input{figPano}
+%%%%%%%%%%%%%%%%%%%%%%%
 
   \paragraph{Database:}
   We have downloaded set of 180,000 panoramic images \cite{Gronat11} roughly covering the area of $30km \times 20km$. We then split this area by a regular grid with spacing of $1km$, hence we have spit the area by 600 uniform cells. Then we have randomly selected a set of 30,000 panoramas in such a way that for each in turn we (i) have randomly picked a grid cell and (ii) from this cell we have randomly picked the panorama. In this manner we have achieved almost uniform sampling across the whole area.
@@ -155,10 +167,8 @@ where $t_k$ is a threshold for given class $k$, and than we use this score as a 
   We first extract dense SIFT features with a step of $16$ pixels. Then we represent each image by a pyramid-of-histogram-of-bag-of-words (PHOW) \cite{} quantized into a $20k$ visual word dictionary. The dictionary has been learned by k-means from SIFT descriptors of $5,000$ randomly elected images. We have found that PHOW representation performs better then BOW. This can be explained by the fact that rather then representing a place-specific features of the particular image we aim on representing it's global appearance.
 
   \paragraph{Learning SVMs:}
-  For each category we learn one-versus-rest linear SVM using \cite{liblinear}. To select optimal parameters $C_1$, $C_2$ we perform a grid search with $6-fold$ cross-validation and for each coupe of parameters we compute a expected average precision (see table \ref{tab:categories}). Then we pick a set of parameters that maximizes the expected AP and re-train the SVM with all available data. Table \ref{tab:categories} shows a maximal expected AP reached during cross-validation. The values can indicate how reliable the classifier will be. For instance, the $E[AP]$ of the class \emph{Monumental} is only $28\%$, considering that \emph{Architecture style} category has only four classes, for a random performance would be $25\%$. Thus a predictor of this class will be very noisy.
+  For each category we learn one-versus-rest linear SVM using \cite{liblinear}. To select optimal parameters $C_1$, $C_2$ we perform a grid search with $6-fold$ cross-validation and for each coupe of parameters we compute a expected average precision (see table \ref{tab:categories}). Then we pick a set of parameters that maximizes the expected AP and re-train the SVM with all available data. Table \ref{tab:categories} shows a maximal expected AP reached during cross-validation. The values can indicate how reliable the classifier will be. For instance, the $E[AP]$ of the class \emph{Monumental} is only $28\%$, considering that \emph{Architecture style} category has only four classes, for a random performance would be $25\%$.Thus a predictor of this class will be very noisy.
 
-  \paragraph{Visualization:}
-  For each image $j$ in turn we compute
 \section{Results and analysis}
 \label{sec:res}
 
@@ -172,117 +182,21 @@ where $t_k$ is a threshold for given class $k$, and than we use this score as a 
 
 
 %%% Image: Architecture
-\begin{figure}
-  \begin{minipage}{\linewidth}
-    \begin{minipage}{0.3\linewidth}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-    \end{minipage}
-    \begin{minipage}{0.7\linewidth}
-      \includegraphics[trim= 350 150 250 150, clip=true, width=\linewidth]{imgs/arch/mapS2.jpg}
-    \end{minipage}
-  \end{minipage}
-  \\
-  $\;$ \hspace{30mm} (a) Classical residential
-  \\
-  \\
-  \begin{minipage}{\linewidth}
-    \begin{minipage}{0.3\linewidth}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-    \end{minipage}
-    \begin{minipage}{0.7\linewidth}
-      \includegraphics[trim= 350 150 250 150, clip=true, width=\linewidth]{imgs/arch/mapS3.jpg}
-    \end{minipage}
-  \end{minipage}
-  \\
-  $\;$\hspace{30mm} (b) Contemporary residential
-  \\
-  \caption{
-    Architecture style: Heatmaps \emph{(right)} showing a density of different architecture styles across the city of Madrid. Notice that while \emph{classical residential} style (a) is mostly concentrated in the city center the \emph{contemporary residential} style (b) is detected away from the city center. On the \emph{left} there are examples of several top-ranked images for given style.
-  }
-\end{figure}
+\input{figHeatArchitecture.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Image: Architecture - continue
+\input{figHeatArchitecture2.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%% Image: Vegetation
-\begin{figure}
-  \begin{minipage}{\linewidth}
-    \begin{minipage}{0.3\linewidth}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-    \end{minipage}
-    \begin{minipage}{0.7\linewidth}
-      \includegraphics[trim= 350 150 250 150, clip=true, width=\linewidth]{imgs/vege/mapT2.jpg}
-    \end{minipage}
-  \end{minipage}
-  \\
-  $\;$ \hspace{30mm} (a) Dense vegetation
-  \\
-  \\
-  \begin{minipage}{\linewidth}
-    \begin{minipage}{0.3\linewidth}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \\ \vspace{-3mm} \\
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-      \includegraphics[width=0.49\linewidth]{imgs/cutout_pitch04.jpg}
-    \end{minipage}
-    \begin{minipage}{0.7\linewidth}
-      \includegraphics[trim= 350 150 250 150, clip=true, width=\linewidth]{imgs/vege/mapT1.jpg}
-    \end{minipage}
-  \end{minipage}
-  \\
-  $\;$\hspace{30mm} (b) Loose vegetation
-  \\
-  \caption{
-    Vegetation: Heatmaps \emph{(right)} showing a density of vegetation across the city of Madrid. Notice a complemetarity of the heatmaps. The \emph{column} shows several top-ranked images by learned predictor.
-  }
-\end{figure}
+\input{figVegetation.tex}
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Image: View
+\input{figView.tex}
+%%%%%%%%%%%%%%%%%%%%%%
 
 
   \begin{figure}
