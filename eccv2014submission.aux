@@ -1,12 +1,42 @@
 \relax 
-\bibstyle{splncs}
-\bibdata{egbib}
-\@writefile{toc}{\contentsline {title}{Beyond the Google StreetView: learning predictors for architecture stlye, graffiti and vegetation }{1}}
+\citation{Doersch}
+\@writefile{toc}{\contentsline {title}{Beyond the Google StreetView: learning predictors for architecture style, graffiti and vegetation }{1}}
 \@writefile{toc}{\authcount {1}}
 \@writefile{toc}{\contentsline {author}{Anonymous ECCV submission}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Approach overview}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  A center of each panorama \emph  {(right)} corresponds to the Google car motion. For each side of the panorama we generate two perspective images \emph  {(left)} with horizontal field of view $90^\circ $ in two different elevation pitches in order to capture both street view level and building facades. }}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  Architecture style: Heatmaps \emph  {(right)} showing a density of different architecture styles across the city of Madrid. Notice that while \emph  {classical residential} style (a) is mostly concentrated in the city center the \emph  {contemporary residential} style (b) is detected away from the city center. On the \emph  {left} there are examples of several top-ranked images for given style. }}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Vegetation: Heatmaps \emph  {(right)} showing a density of vegetation across the city of Madrid. Notice a complemetarity of the heatmaps. The \emph  {column} shows several top-ranked images by learned predictor. }}{4}}
+\citation{Gronat13, Doersch}
+\citation{Gronat11}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Building a database}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Annotated database}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Learning SVMs}{2}}
+\newlabel{eq:obj}{{1}{2}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  A number of labeled images in each category. The right column shows an expected average precision (AP) for each class within given category. The expected AP have been estimated by 6-fold cross-validation during training. The values indicate which class has a potential to be detected by learned predictor. }}{3}}
+\newlabel{tab:categories}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Evaluation}{3}}
+\citation{googleAPI}
+\citation{googleAPI}
+\citation{Gronat11}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  A center of each panorama \emph  {(right)} corresponds to the Google car motion. For each side of the panorama we generate two perspective images \emph  {(left)} with horizontal field of view $90^\circ $ in two different elevation pitches in order to capture both street view level and building facades. }}{4}}
+\newlabel{fig:pano}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Visualization}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental details}{4}}
+\newlabel{sec:exprm}{{4}{4}}
+\@writefile{toc}{\contentsline {paragraph}{Database:}{4}}
+\citation{}
+\citation{liblinear}
+\bibstyle{splncs}
+\bibdata{egbib}
+\@writefile{toc}{\contentsline {paragraph}{Perspective images:}{5}}
+\@writefile{toc}{\contentsline {paragraph}{Features:}{5}}
+\@writefile{toc}{\contentsline {paragraph}{Learning SVMs:}{5}}
+\@writefile{toc}{\contentsline {paragraph}{Visualization:}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and analysis}{5}}
+\newlabel{sec:res}{{5}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Qualitative analysis}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  Architecture style: Heatmaps \emph  {(right)} showing a density of different architecture styles across the city of Madrid. Notice that while \emph  {classical residential} style (a) is mostly concentrated in the city center the \emph  {contemporary residential} style (b) is detected away from the city center. On the \emph  {left} there are examples of several top-ranked images for given style. }}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Vegetation: Heatmaps \emph  {(right)} showing a density of vegetation across the city of Madrid. Notice a complemetarity of the heatmaps. The \emph  {column} shows several top-ranked images by learned predictor. }}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  An ancient map of the city of Madrid from 1834 aligned with a Google map. The map is overlayed with our heatmap showing a response of the predictor for \emph  {Classical residential} class. Notice how correlated is ...... lorem ipsum matriculum ipsum. }}{8}}
+\newlabel{fig:map1834}{{4}{8}}
