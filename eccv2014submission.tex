@@ -107,13 +107,74 @@ We opt for a classic approach \cite{csurka04}  to learn discriminative classifie
 
 In this section we first describe the strategy we used to  collect and annotate google street view images as well as the image analysis pipeline to efficiently process such images. 
 
-\subsection{Building a database}
+\subsection{Database}
   \vspace{-1mm}
   Similar to other works \cite{Gronat13, Doersch} we follow \cite{Gronat11} and build our database from a collection of Google StreetView images. We have downloaded about 180,000 panoramic image of the city of Madrid. For a subset of panoramas we have generated four perspective images that capture both building facades and street level scene (details are given next in section \ref{sec:exprm}). In the same manner we have generated a disjunctive set of images that are be subsequently annotated by humans. 
-  
-\subsection{Annotated database} 
-  \vspace{-1mm}
+In order to generate a coherent set of candidate facade labels, we took advantage of the help of an urbanist expert on spanish urbanism. This interaction resulted into the definition of four prevailing styles relevant for the city of Madrid and generalisable to the most part of Spanish cities. We describe these four architectural styles in the tables below 
+
+
+
+
   We have designed a simple web-based annotation interface in order to collect image labels for a random set of Google streetview images described above. We have asked nine annotaters to label a given subset of images. Rather then  classifying each of many Madrid architecture styles (Castilian baroque, Gothic, Romanesque, Neoclassical, Baroque, Bourbon rococo etc.) we asked annotaters to classify the architecture appearance in one of four classes: \emph{Classical residential}, \emph{Contemporary-residential} (modern buildings, second half of 20th century), \emph{Non-residential} (office buildings, factories, shopping centers) and \emph{Monumental}. 
+
+\begin{figure}[ht] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=12cm]{imgs/old-.png} 
+   \caption{(left) Example of monumental images manually selected for the benefit of the annotators, (right) classical residential buildings.}
+   \label{fig:monumental_classical}
+\end{figure}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   {\tiny
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{m{1.5cm}|m{4.9cm}|m{4.9cm}} % Column formatting, @{} suppresses leading/trailing space
+      %\cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+          & {\bf Monumental} & {\bf Classical residential} \\
+          \hline\hline
+         History       &  not an age-based homogeneous style built before 1920 
+     &  not an age-based homogeneous style built before 1920 \\
+      Original use       & religious or civil architecture  & 92.50 \\
+      Current use       & cult, monumental, museums, prestigious commercial activities (banks, etc.)  & commercial premises on ground floor, and mainly apartments in the upper floors \\
+      Features & volume non just parallelepiped, towers, ornaments, columns, steep slope roofs, domes, etc.     &  volume is parallelepiped, eclectic and neoclassic ornaments, iron balconies, straight windows (high>width) \\
+     % \bottomrule
+   \end{tabular}
+   }
+   \caption{Monumental vs. Classical residential}
+   \label{tab:monumental_classical}
+\end{table}
+\vspace{-1cm}
+
+
+\begin{figure}[ht] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=12cm]{imgs/modern-.png} 
+   \caption{(left) Example of monumental images manually selected for the benefit of the annotators, (right) classical residential buildings.}
+   \label{fig:residential_nonresidential}
+\end{figure}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   {\tiny
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{m{1.5cm}|m{4.9cm}|m{4.9cm}} % Column formatting, @{} suppresses leading/trailing space
+      %\cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+          & {\bf Contemporary residential } & {\bf Contemporary non-residential} \\
+          \hline\hline
+         History       &  built after 1920 & built after 1920 \\
+      Original use       & residential & tertiary use, sport stadium, educational, offices, hotels, both private and public buildings\\
+      Current use       &residential & same as original use \\
+      Features & brick or concrete façades, wide windows (width>=high), parallelepiped volumes, flat roofs  &  steel and glass architecture, concrete \\
+     % \bottomrule
+   \end{tabular}
+   }
+   \caption{Contemporary residential vs. Contemporary non-residential}
+   \label{tab:residential_nonresidential}
+\end{table}
+
+
 
   \begin{table}[t]
   \centering
