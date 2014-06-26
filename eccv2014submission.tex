@@ -70,35 +70,37 @@
 \section{Introduction}
 
 %It's difficult to make any one sweeping statement about Madrid architecture. As Spain's monarchical dynasties shifted from Flanders to Austria to France, so did the principal styles that shaped every period. Madrid was rarely a trendsetter; rather the city tended to absorb foreign influences and adapt them, more often than not, to a somewhat austere Catholic aesthetic. 
-
+{\color{red}{\bf THIS IS STILL A MESS.. BE PATIENT HERE..}
 We generate aggregated and geo-referenced views synthesizing the visual \emph{appeal} of a place. The level of appeal can correlate to aesthetic preference, real estate value, touristic relevance, etc. 
 Such elements can be related to the presence (or absence) of a notable architectural style or a landmark \cite{weyand2011discovering}. A style may include elements such as form, method of construction, materials, and regional character. 
 However, many other factors should be taken into account to mimic human judgment: changing fashions, changing beliefs, presence of vegetation, landmarks, urban decay, indigenous population, etc.. Detecting all this different aspects using visual information only is a challenging task for several reasons. First, as a recent social study shows \cite{audit2011}, such visual aspects can be very subtle and might require the eye of a human inspector directly on site  (e.g. street conditions, presence of garbage, litter, broken glasses).
 Secondly and most importantly, a place can change quite dramatically in time. Using images that are not up-to-date is a clear limitation in this respect. Finally, all other non factual information that impacts on viewer's appeal (e.g. architectural style) is difficult to learn directly from visual data. This is largely due to the lack of annotated data. 
+
+\cite{audit2011} presents an interesting study where it is shown that virtual auditing tools (e.g. google StreetView) represent a valid alternative to ``in-person'' assessment of urban areas. This is especially true for assessing indicators of recreational facilities, land use and overall neighborhood characteristics. However, agreement between in-person and virtual tours is lower for characteristics requiring a qualitative judgment (e.g. street conditions, highly detailed observations such as presence of garbage, litter, broken glasses). 
+\cite{audit2011} also define a set of 29 attributes organized in 6 categories typically used by human auditors to assess street/neighborhood conditions.
+}
 
 Unlike \cite{Doersch} our goal is not to learn discriminative patches for different architecture styles and visual attributes. Instead we aim on learning our linear SVM on bag-of-words-like representation since we want to classify the whole appearance of the image. Moreover, our goal is to learn a cheap and scalable pipeline that eventually allows to process millions of images.
 
 
 \section{Related work}
 
-Some recent work (\cite{doersch2012what}, \texttt{SIGGRAPH'12}) explored the problem of automatically finding subsets of visual elements featuring a specific architectural style using geo-referenced images provided by Google Street-view. In particular, the authors provide featured architectural attributes that makes Paris different from other European capitals.
-This pioneering work highlighted three main technical barriers 
+The only work tangentially related to ours  \cite{mathias2011automatic} explores  the problem of facade recognition. This early work has several limitations that we are bridging in this paper. First, the dataset used is very small and takes into account only X styles. Secondly, the approach for segmenting facades is cumbersome and finally labels of adjacent facades are exploited in the learning model. We want to  scale our analysis to hundred thousands of images, simplify the annotation protocol and generalise styles to process multiple cities in a country and across countries. 
+
+Some more recent work (\cite{doersch2012what}, \texttt{SIGGRAPH'12}) focuses on finding visual elements featuring a specific architectural style using geo-referenced images provided by Google streetview. In particular, the authors provide featured architectural attributes that makes Paris different from other European capitals.
+This pioneering work highlighted three main technical barriers towards automatic analysis of street view images: 
 
 \begin{itemize}
 \item \textbf{non-discriminative information prevails}: the most part of images in Google StreetView is not useful to predict architectural style, 
-\item \textbf{architectural elements can be small and very localized}: highly discriminative patterns can be small objects such as windows, balconies,
+\item \textbf{architectural elements can be small and very localised}: highly discriminative patterns can be small objects such as windows, balconies,
 \item \textbf{discriminant patterns are location-dependent}: typically European cities are more featured than U.S. cities mainly due to the fact that they are older, with a more diverse architectural heritage.  
 \end{itemize}
 
-The most part of the literature on urban image analysis \cite{SBS07,knopp2010avoiding,li2009landmark} is  focused into automatic geo-location and landmark recognition. The key issue here is the identification of salient visual features, either by building efficient visual vocabularies that scale well on web-scale data-sets \cite{SBS07} or by using geotags attached to  images as a form of supervision \cite{knopp2010avoiding}. \cite{murillo2009experiments} experiments with GIST to match different views of the same street directly using panoramic images.
+The rest of the literature on urban image analysis \cite{SBS07,knopp2010avoiding,li2009landmark} is  focused into automatic geo-location and landmark recognition. The key issue here is the identification of salient visual features, either by building efficient visual vocabularies that scale well on web-scale data-sets \cite{SBS07} or by using geotags attached to  images as a form of supervision \cite{knopp2010avoiding}. \cite{murillo2009experiments} experiments with GIST to match different views of the same street directly using panoramic images.
 
 It is also worth highlighting a recent initiative called \href{http://www.icmla-conference.org/icmla11/}{\em ICMLA 2011 StreetView Recognition Challenge} where researchers competed on two main tasks: \emph{Business recognition} (bank, gas station, parking garage, hotel, restaurant) and \emph{Object recognition} (stop sign, ATM machine, bus stop, street sign, fire hydrant). 
 This challenge is interesting  mainly because it provides an annotated database of 129K images from San Francisco and Pittsburgh. GPS coordinates are also available.  
 We are aware of only one published paper \cite{zamir2011street}, that used text recognition to match business signs with a shortlist of businesses generated using www.yellowpages.com. The authors claim an accuracy around 70\% and they highlight the main challenges of the data-set: \textbf{occlusions, low quality of input data, unconstrained appearance of objects}. 
-
-\cite{audit2011} presents an interesting study where it is shown that virtual auditing tools (e.g. google StreetView) represent a valid alternative to ``in-person'' assessment of urban areas. This is especially true for assessing indicators of recreational facilities, land use and overall neighborhood characteristics. However, agreement between in-person and virtual tours is lower for characteristics requiring a qualitative judgment (e.g. street conditions, highly detailed observations such as presence of garbage, litter, broken glasses). 
-\cite{audit2011} also define a set of 29 attributes organized in 6 categories typically used by human auditors to assess street/neighborhood conditions.
-
 
 \section{Approach overview}
 We opt for a classic approach \cite{csurka04}  to learn discriminative classifiers separating images of buildings based on architectural style and other attributes (e.g. level of vegetation, open / closed view, etc.). 
