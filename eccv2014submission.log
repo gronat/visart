@@ -1,21 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.7)  25 JUN 2014 16:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.2)  26 JUN 2014 21:06
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **eccv2014submission
 (./eccv2014submission.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
-hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
- czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
-n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
-reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
- sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
-n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
-speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
-lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
-celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, lo
-aded.
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (./llncs.cls
 Document Class: llncs 2013/09/27 v2.18 
  LaTeX document class for Lecture Notes in Computer Science
@@ -140,7 +130,7 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \headlineindent=\dimen123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
@@ -160,20 +150,20 @@ Package: amsbsy 1999/11/29 v1.2d
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count116
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count117
 \leftroot@=\count118
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count119
 \DOTSCASE@=\count120
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box54
 \strutbox@=\box55
 \big@size=\dimen126
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 
 
 Package amsmath Warning: Unable to redefine math accent \vec.
@@ -198,17 +188,17 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (./ruler.sty
 Package: ruler 
 
@@ -399,34 +389,156 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@cols=\count151
 \TX@ftn=\toks29
 )
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count152
+\Hy@pagecounter=\count153
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count154
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count155
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen163
+\Fld@menulength=\count156
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count157
+\c@Item=\count158
+\c@Hfootnote=\count159
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count160
+\c@bookmark@seq@number=\count161
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip57
+)
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 39.
+
+Package hyperref Info: Option `unicode' set `false' on input line 39.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 39.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 39.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 39.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 39.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 (./eccv2014submission.aux)
 \openout1 = `eccv2014submission.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen162
+\scratchcounter=\count162
+\scratchdimen=\dimen166
 \scratchbox=\box59
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\nofMPsegments=\count163
+\nofMParguments=\count164
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen163
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen167
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
 \everyMPtoPDFconversion=\toks31
 )
 *geometry* driver: auto-detecting
@@ -463,41 +575,12 @@ LaTeX Font Info:    ... okay on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -507,58 +590,149 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+\AtBeginShipoutBox=\box60
+Package atbegshi Info: Package `everyshi' patched.
+Package hyperref Info: Link coloring ON on input line 44.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count168
+)
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
+
+(./eccv2014submission.out) (./eccv2014submission.out)
+\@outlinefile=\write3
+\openout3 = `eccv2014submission.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `Doersch' on page 1 undefined on input line 53.
+LaTeX Warning: Citation `weyand2011discovering' on page 1 undefined on input li
+ne 75.
+
+
+LaTeX Warning: Citation `audit2011' on page 1 undefined on input line 76.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 
-LaTeX Warning: Citation `Gronat13' on page 2 undefined on input line 59.
+LaTeX Warning: Citation `audit2011' on page 2 undefined on input line 79.
 
 
-LaTeX Warning: Citation ` Doersch' on page 2 undefined on input line 59.
+LaTeX Warning: Citation `audit2011' on page 2 undefined on input line 80.
 
 
-LaTeX Warning: Citation `Gronat11' on page 2 undefined on input line 59.
+LaTeX Warning: Citation `mathias2011automatic' on page 2 undefined on input lin
+e 87.
+
+
+LaTeX Warning: Citation `Doerch12' on page 2 undefined on input line 89.
+
+
+Overfull \hbox (4.62122pt too wide) in paragraph at lines 95--96
+[]\OT1/cmr/bx/n/10 discriminant pat-terns are location-dependent\OT1/cmr/m/n/10
+ : typ-i-cally Eu-ro-pean cities
+ []
+
+
+LaTeX Warning: Citation `SBS07' on page 2 undefined on input line 98.
+
+
+LaTeX Warning: Citation `knopp2010avoiding' on page 2 undefined on input line 9
+8.
+
+
+LaTeX Warning: Citation `li2009landmark' on page 2 undefined on input line 98.
+
+
+LaTeX Warning: Citation `SBS07' on page 2 undefined on input line 98.
+
+
+LaTeX Warning: Citation `knopp2010avoiding' on page 2 undefined on input line 9
+8.
+
+
+LaTeX Warning: Citation `murillo2009experiments' on page 2 undefined on input l
+ine 98.
 
 [2]
 
-LaTeX Warning: Reference `sec:ref' on page 3 undefined on input line 140.
-
-[3]
-
-LaTeX Warning: Citation `googleAPI' on page 4 undefined on input line 144.
+LaTeX Warning: Citation `zamir2011street' on page 3 undefined on input line 102
+.
 
 
-LaTeX Warning: Citation `googleAPI' on page 4 undefined on input line 151.
+LaTeX Warning: Citation ` doersch12what' on page 3 undefined on input line 111.
 
-(./figPano.tex <imgs/cutout_pitch28.jpg, id=30, 939.51pt x 539.01375pt>
+
+
+LaTeX Warning: Citation `gronat11' on page 3 undefined on input line 111.
+
+<imgs/old-.png, id=41, 1138.2525pt x 373.395pt>
+File: imgs/old-.png Graphic file (type png)
+ <use imgs/old-.png>
+Package pdftex.def Info: imgs/old-.png used on input line 121.
+(pdftex.def)             Requested size: 341.43306pt x 112.00226pt.
+
+Underfull \hbox (badness 1796) in paragraph at lines 138--139
+[]|\OT1/cmr/m/n/5 commercial premises on ground floor, and
+ []
+
+<imgs/modern-.png, id=43, 1191.45125pt x 382.42876pt>
+File: imgs/modern-.png Graphic file (type png)
+ <use imgs/modern-.png>
+Package pdftex.def Info: imgs/modern-.png used on input line 151.
+(pdftex.def)             Requested size: 341.43306pt x 109.58853pt.
+Missing character: There is no ç in font cmr5!
+
+Underfull \hbox (badness 8094) in paragraph at lines 168--168
+[]|\OT1/cmr/m/n/5 brick or con-crete faades, wide win-dows
+ []
+
+[3] [4 <./imgs/old-.png>]
+
+LaTeX Warning: Reference `sec:ref' on page 5 undefined on input line 253.
+
+
+LaTeX Warning: Citation `googleAPI' on page 5 undefined on input line 257.
+
+
+Underfull \vbox (badness 1902) has occurred while \output is active []
+
+ [5 <./imgs/modern-.png>]
+
+LaTeX Warning: Citation `googleAPI' on page 6 undefined on input line 264.
+
+(./figPano.tex <imgs/cutout_pitch28.jpg, id=85, 939.51pt x 539.01375pt>
 File: imgs/cutout_pitch28.jpg Graphic file (type jpg)
 
 <use imgs/cutout_pitch28.jpg>
 Package pdftex.def Info: imgs/cutout_pitch28.jpg used on input line 4.
 (pdftex.def)             Requested size: 104.13814pt x 59.74405pt.
 
-<imgs/cutout_pitch04.jpg, id=31, 939.51pt x 539.01375pt>
+<imgs/cutout_pitch04.jpg, id=86, 939.51pt x 539.01375pt>
 File: imgs/cutout_pitch04.jpg Graphic file (type jpg)
 
 <use imgs/cutout_pitch04.jpg>
 Package pdftex.def Info: imgs/cutout_pitch04.jpg used on input line 5.
 (pdftex.def)             Requested size: 104.13814pt x 59.74405pt.
 
-<imgs/panorama.jpg, id=32, 6680.96pt x 3340.48pt>
+<imgs/panorama.jpg, id=87, 6680.96pt x 3340.48pt>
 File: imgs/panorama.jpg Graphic file (type jpg)
  <use imgs/panorama.jpg>
 Package pdftex.def Info: imgs/panorama.jpg used on input line 9.
@@ -570,15 +744,14 @@ Overfull \hbox (2.05553pt too wide) in paragraph at lines 3--35
 
 )
 
-LaTeX Warning: Citation `Gronat11' on page 4 undefined on input line 161.
+LaTeX Warning: Citation `gronat11' on page 6 undefined on input line 274.
 
-[4 <./imgs/cutout_pitch28.jpg> <./imgs/cutout_pitch04.jpg> <./imgs/panorama.jpg
->]
+[6]
 
-LaTeX Warning: Citation `liblinear' on page 5 undefined on input line 170.
+LaTeX Warning: Citation `liblinear' on page 7 undefined on input line 283.
 
 (./figHeatArchitecture.tex
-<imgs/arch/mosaicsS2/mosaic0000.jpg, id=41, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0000.jpg, id=98, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0000.jpg>
@@ -586,7 +759,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0000.jpg used on input line
 4.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0001.jpg, id=42, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0001.jpg, id=99, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0001.jpg>
@@ -594,7 +767,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0001.jpg used on input line
 5.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0002.jpg, id=43, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0002.jpg, id=100, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0002.jpg>
@@ -602,7 +775,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0002.jpg used on input line
 7.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0003.jpg, id=44, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0003.jpg, id=101, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0003.jpg>
@@ -610,7 +783,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0003.jpg used on input line
 8.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0004.jpg, id=45, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0004.jpg, id=102, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0004.jpg>
@@ -618,7 +791,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0004.jpg used on input line
 10.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0005.jpg, id=46, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0005.jpg, id=103, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0005.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0005.jpg>
@@ -626,7 +799,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0005.jpg used on input line
 11.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0006.jpg, id=47, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0006.jpg, id=104, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0006.jpg>
@@ -634,7 +807,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0006.jpg used on input line
 13.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0007.jpg, id=48, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0007.jpg, id=105, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0007.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0007.jpg>
@@ -642,7 +815,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0007.jpg used on input line
 14.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0008.jpg, id=49, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0008.jpg, id=106, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0008.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0008.jpg>
@@ -650,7 +823,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0008.jpg used on input line
 16.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS2/mosaic0009.jpg, id=50, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS2/mosaic0009.jpg, id=107, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS2/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS2/mosaic0009.jpg>
@@ -658,7 +831,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS2/mosaic0009.jpg used on input line
 17.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mapS2.jpg, id=51, 1927.2pt x 1204.5pt>
+<imgs/arch/mapS2.jpg, id=108, 1927.2pt x 1204.5pt>
 File: imgs/arch/mapS2.jpg Graphic file (type jpg)
  <use imgs/arch/mapS2.jpg>
 Package pdftex.def Info: imgs/arch/mapS2.jpg used on input line 20.
@@ -668,7 +841,7 @@ Overfull \hbox (2.05553pt too wide) in paragraph at lines 3--22
 []$[]$ $[]$ 
  []
 
-<imgs/arch/mosaicsS3/mosaic0000.jpg, id=53, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0000.jpg, id=110, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0000.jpg>
@@ -676,7 +849,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0000.jpg used on input line
 29.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0001.jpg, id=54, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0001.jpg, id=111, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0001.jpg>
@@ -684,7 +857,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0001.jpg used on input line
 30.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0002.jpg, id=55, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0002.jpg, id=112, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0002.jpg>
@@ -692,7 +865,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0002.jpg used on input line
 32.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0003.jpg, id=56, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0003.jpg, id=113, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0003.jpg>
@@ -700,7 +873,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0003.jpg used on input line
 33.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0004.jpg, id=57, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0004.jpg, id=114, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0004.jpg>
@@ -708,7 +881,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0004.jpg used on input line
 35.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0005.jpg, id=58, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0005.jpg, id=115, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0005.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0005.jpg>
@@ -716,7 +889,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0005.jpg used on input line
 36.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0006.jpg, id=59, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0006.jpg, id=116, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0006.jpg>
@@ -724,7 +897,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0006.jpg used on input line
 38.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0007.jpg, id=60, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0007.jpg, id=117, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0007.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0007.jpg>
@@ -732,7 +905,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0007.jpg used on input line
 39.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0008.jpg, id=61, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0008.jpg, id=118, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0008.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0008.jpg>
@@ -740,7 +913,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0008.jpg used on input line
 41.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS3/mosaic0009.jpg, id=62, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS3/mosaic0009.jpg, id=119, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS3/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS3/mosaic0009.jpg>
@@ -748,7 +921,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS3/mosaic0009.jpg used on input line
 42.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mapS3.jpg, id=63, 1927.2pt x 1204.5pt>
+<imgs/arch/mapS3.jpg, id=120, 1927.2pt x 1204.5pt>
 File: imgs/arch/mapS3.jpg Graphic file (type jpg)
  <use imgs/arch/mapS3.jpg>
 Package pdftex.def Info: imgs/arch/mapS3.jpg used on input line 45.
@@ -768,8 +941,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--53
 
  []
 
-) (./figHeatArchitecture2.tex
-<imgs/arch/mosaicsS4/mosaic0000.jpg, id=65, 264.99pt x 157.58875pt>
+[7 <./imgs/cutout_pitch28.jpg> <./imgs/cutout_pitch04.jpg> <./imgs/panorama.jpg
+>]) (./figHeatArchitecture2.tex
+<imgs/arch/mosaicsS4/mosaic0000.jpg, id=135, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0000.jpg>
@@ -777,7 +951,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0000.jpg used on input line
 4.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0001.jpg, id=66, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0001.jpg, id=136, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0001.jpg>
@@ -785,7 +959,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0001.jpg used on input line
 5.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0002.jpg, id=67, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0002.jpg, id=137, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0002.jpg>
@@ -793,7 +967,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0002.jpg used on input line
 7.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0003.jpg, id=68, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0003.jpg, id=138, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0003.jpg>
@@ -801,7 +975,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0003.jpg used on input line
 8.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0004.jpg, id=69, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0004.jpg, id=139, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0004.jpg>
@@ -809,7 +983,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0004.jpg used on input line
 10.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0012.jpg, id=70, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0012.jpg, id=140, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0012.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0012.jpg>
@@ -817,7 +991,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0012.jpg used on input line
 11.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0014.jpg, id=71, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0014.jpg, id=141, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0014.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0014.jpg>
@@ -825,7 +999,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0014.jpg used on input line
 13.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0018.jpg, id=72, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0018.jpg, id=142, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0018.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0018.jpg>
@@ -833,7 +1007,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0018.jpg used on input line
 14.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0019.jpg, id=73, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0019.jpg, id=143, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0019.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0019.jpg>
@@ -841,7 +1015,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0019.jpg used on input line
 16.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS4/mosaic0021.jpg, id=74, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS4/mosaic0021.jpg, id=144, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS4/mosaic0021.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS4/mosaic0021.jpg>
@@ -849,7 +1023,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS4/mosaic0021.jpg used on input line
 17.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mapS4.jpg, id=75, 1927.2pt x 1204.5pt>
+<imgs/arch/mapS4.jpg, id=145, 1927.2pt x 1204.5pt>
 File: imgs/arch/mapS4.jpg Graphic file (type jpg)
  <use imgs/arch/mapS4.jpg>
 Package pdftex.def Info: imgs/arch/mapS4.jpg used on input line 20.
@@ -859,7 +1033,7 @@ Overfull \hbox (2.05553pt too wide) in paragraph at lines 3--22
 []$[]$ $[]$ 
  []
 
-<imgs/arch/mosaicsS1/mosaic0000.jpg, id=77, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0000.jpg, id=147, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0000.jpg>
@@ -867,7 +1041,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0000.jpg used on input line
 29.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0001.jpg, id=78, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0001.jpg, id=148, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0001.jpg>
@@ -875,7 +1049,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0001.jpg used on input line
 30.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0002.jpg, id=79, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0002.jpg, id=149, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0002.jpg>
@@ -883,7 +1057,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0002.jpg used on input line
 32.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0006.jpg, id=80, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0006.jpg, id=150, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0006.jpg>
@@ -891,7 +1065,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0006.jpg used on input line
 33.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0009.jpg, id=81, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0009.jpg, id=151, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0009.jpg>
@@ -899,7 +1073,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0009.jpg used on input line
 35.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0018.jpg, id=82, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0018.jpg, id=152, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0018.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0018.jpg>
@@ -907,7 +1081,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0018.jpg used on input line
 36.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0021.jpg, id=83, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0021.jpg, id=153, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0021.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0021.jpg>
@@ -915,7 +1089,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0021.jpg used on input line
 38.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0025.jpg, id=84, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0025.jpg, id=154, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0025.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0025.jpg>
@@ -923,7 +1097,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0025.jpg used on input line
 39.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0030.jpg, id=85, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0030.jpg, id=155, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0030.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0030.jpg>
@@ -931,7 +1105,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0030.jpg used on input line
 41.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mosaicsS1/mosaic0032.jpg, id=86, 264.99pt x 157.58875pt>
+<imgs/arch/mosaicsS1/mosaic0032.jpg, id=156, 264.99pt x 157.58875pt>
 File: imgs/arch/mosaicsS1/mosaic0032.jpg Graphic file (type jpg)
 
 <use imgs/arch/mosaicsS1/mosaic0032.jpg>
@@ -939,7 +1113,7 @@ Package pdftex.def Info: imgs/arch/mosaicsS1/mosaic0032.jpg used on input line
 42.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/arch/mapS1.jpg, id=87, 1927.2pt x 1204.5pt>
+<imgs/arch/mapS1.jpg, id=157, 1927.2pt x 1204.5pt>
 File: imgs/arch/mapS1.jpg Graphic file (type jpg)
  <use imgs/arch/mapS1.jpg>
 Package pdftex.def Info: imgs/arch/mapS1.jpg used on input line 45.
@@ -960,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--53
  []
 
 ) (./figVegetation.tex
-<imgs/vege/mosaicsT2/mosaic0000.jpg, id=89, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0000.jpg, id=159, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0000.jpg>
@@ -968,7 +1142,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0000.jpg used on input line
 4.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0001.jpg, id=90, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0001.jpg, id=160, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0001.jpg>
@@ -976,7 +1150,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0001.jpg used on input line
 5.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0002.jpg, id=91, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0002.jpg, id=161, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0002.jpg>
@@ -984,7 +1158,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0002.jpg used on input line
 7.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0003.jpg, id=92, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0003.jpg, id=162, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0003.jpg>
@@ -992,7 +1166,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0003.jpg used on input line
 8.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0004.jpg, id=93, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0004.jpg, id=163, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0004.jpg>
@@ -1000,7 +1174,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0004.jpg used on input line
 10.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0005.jpg, id=94, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0005.jpg, id=164, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0005.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0005.jpg>
@@ -1008,7 +1182,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0005.jpg used on input line
 11.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0006.jpg, id=95, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0006.jpg, id=165, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0006.jpg>
@@ -1016,7 +1190,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0006.jpg used on input line
 13.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0007.jpg, id=96, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0007.jpg, id=166, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0007.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0007.jpg>
@@ -1024,7 +1198,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0007.jpg used on input line
 14.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0008.jpg, id=97, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0008.jpg, id=167, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0008.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0008.jpg>
@@ -1032,7 +1206,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0008.jpg used on input line
 16.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT2/mosaic0009.jpg, id=98, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT2/mosaic0009.jpg, id=168, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT2/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT2/mosaic0009.jpg>
@@ -1040,7 +1214,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT2/mosaic0009.jpg used on input line
 17.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mapT2.jpg, id=99, 1927.2pt x 1204.5pt>
+<imgs/vege/mapT2.jpg, id=169, 1927.2pt x 1204.5pt>
 File: imgs/vege/mapT2.jpg Graphic file (type jpg)
  <use imgs/vege/mapT2.jpg>
 Package pdftex.def Info: imgs/vege/mapT2.jpg used on input line 20.
@@ -1050,7 +1224,7 @@ Overfull \hbox (2.05553pt too wide) in paragraph at lines 3--22
 []$[]$ $[]$ 
  []
 
-<imgs/vege/mosaicsT1/mosaic0012.jpg, id=101, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0012.jpg, id=171, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0012.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0012.jpg>
@@ -1058,7 +1232,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0012.jpg used on input line
 29.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0019.jpg, id=102, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0019.jpg, id=172, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0019.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0019.jpg>
@@ -1066,7 +1240,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0019.jpg used on input line
 30.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0020.jpg, id=103, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0020.jpg, id=173, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0020.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0020.jpg>
@@ -1074,7 +1248,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0020.jpg used on input line
 32.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0035.jpg, id=104, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0035.jpg, id=174, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0035.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0035.jpg>
@@ -1082,7 +1256,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0035.jpg used on input line
 33.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0043.jpg, id=105, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0043.jpg, id=175, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0043.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0043.jpg>
@@ -1090,7 +1264,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0043.jpg used on input line
 35.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0047.jpg, id=106, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0047.jpg, id=176, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0047.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0047.jpg>
@@ -1098,7 +1272,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0047.jpg used on input line
 36.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0079.jpg, id=107, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0079.jpg, id=177, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0079.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0079.jpg>
@@ -1106,7 +1280,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0079.jpg used on input line
 38.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0080.jpg, id=108, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0080.jpg, id=178, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0080.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0080.jpg>
@@ -1114,7 +1288,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0080.jpg used on input line
 39.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0042.jpg, id=109, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0042.jpg, id=179, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0042.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0042.jpg>
@@ -1122,7 +1296,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0042.jpg used on input line
 41.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mosaicsT1/mosaic0048.jpg, id=110, 264.99pt x 157.58875pt>
+<imgs/vege/mosaicsT1/mosaic0048.jpg, id=180, 264.99pt x 157.58875pt>
 File: imgs/vege/mosaicsT1/mosaic0048.jpg Graphic file (type jpg)
 
 <use imgs/vege/mosaicsT1/mosaic0048.jpg>
@@ -1130,7 +1304,7 @@ Package pdftex.def Info: imgs/vege/mosaicsT1/mosaic0048.jpg used on input line
 42.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/vege/mapT1.jpg, id=111, 1927.2pt x 1204.5pt>
+<imgs/vege/mapT1.jpg, id=181, 1927.2pt x 1204.5pt>
 File: imgs/vege/mapT1.jpg Graphic file (type jpg)
  <use imgs/vege/mapT1.jpg>
 Package pdftex.def Info: imgs/vege/mapT1.jpg used on input line 45.
@@ -1151,7 +1325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--53
  []
 
 ) (./figView.tex
-<imgs/view/mosaicsV1/mosaic0000.jpg, id=113, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0000.jpg, id=183, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0000.jpg>
@@ -1159,7 +1333,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0000.jpg used on input line
 4.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0001.jpg, id=114, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0001.jpg, id=184, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0001.jpg>
@@ -1167,7 +1341,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0001.jpg used on input line
 5.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0002.jpg, id=115, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0002.jpg, id=185, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0002.jpg>
@@ -1175,7 +1349,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0002.jpg used on input line
 7.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0003.jpg, id=116, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0003.jpg, id=186, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0003.jpg>
@@ -1183,7 +1357,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0003.jpg used on input line
 8.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0004.jpg, id=117, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0004.jpg, id=187, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0004.jpg>
@@ -1191,7 +1365,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0004.jpg used on input line
 10.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0005.jpg, id=118, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0005.jpg, id=188, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0005.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0005.jpg>
@@ -1199,7 +1373,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0005.jpg used on input line
 11.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0006.jpg, id=119, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0006.jpg, id=189, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0006.jpg>
@@ -1207,7 +1381,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0006.jpg used on input line
 13.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0007.jpg, id=120, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0007.jpg, id=190, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0007.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0007.jpg>
@@ -1215,7 +1389,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0007.jpg used on input line
 14.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0008.jpg, id=121, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0008.jpg, id=191, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0008.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0008.jpg>
@@ -1223,7 +1397,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0008.jpg used on input line
 16.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV1/mosaic0009.jpg, id=122, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV1/mosaic0009.jpg, id=192, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV1/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV1/mosaic0009.jpg>
@@ -1231,7 +1405,7 @@ Package pdftex.def Info: imgs/view/mosaicsV1/mosaic0009.jpg used on input line
 17.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mapV1.jpg, id=123, 1927.2pt x 1204.5pt>
+<imgs/view/mapV1.jpg, id=193, 1927.2pt x 1204.5pt>
 File: imgs/view/mapV1.jpg Graphic file (type jpg)
  <use imgs/view/mapV1.jpg>
 Package pdftex.def Info: imgs/view/mapV1.jpg used on input line 20.
@@ -1241,7 +1415,7 @@ Overfull \hbox (2.05553pt too wide) in paragraph at lines 3--22
 []$[]$ $[]$ 
  []
 
-<imgs/view/mosaicsV3/mosaic0000.jpg, id=125, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0000.jpg, id=195, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0000.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0000.jpg>
@@ -1249,7 +1423,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0000.jpg used on input line
 29.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0001.jpg, id=126, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0001.jpg, id=196, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0001.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0001.jpg>
@@ -1257,7 +1431,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0001.jpg used on input line
 30.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0002.jpg, id=127, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0002.jpg, id=197, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0002.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0002.jpg>
@@ -1265,7 +1439,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0002.jpg used on input line
 32.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0003.jpg, id=128, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0003.jpg, id=198, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0003.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0003.jpg>
@@ -1273,7 +1447,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0003.jpg used on input line
 33.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0004.jpg, id=129, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0004.jpg, id=199, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0004.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0004.jpg>
@@ -1281,7 +1455,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0004.jpg used on input line
 35.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0005.jpg, id=130, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0005.jpg, id=200, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0005.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0005.jpg>
@@ -1289,7 +1463,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0005.jpg used on input line
 36.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0006.jpg, id=131, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0006.jpg, id=201, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0006.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0006.jpg>
@@ -1297,7 +1471,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0006.jpg used on input line
 38.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0007.jpg, id=132, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0007.jpg, id=202, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0007.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0007.jpg>
@@ -1305,7 +1479,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0007.jpg used on input line
 39.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0008.jpg, id=133, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0008.jpg, id=203, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0008.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0008.jpg>
@@ -1313,7 +1487,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0008.jpg used on input line
 41.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mosaicsV3/mosaic0009.jpg, id=134, 264.99pt x 157.58875pt>
+<imgs/view/mosaicsV3/mosaic0009.jpg, id=204, 264.99pt x 157.58875pt>
 File: imgs/view/mosaicsV3/mosaic0009.jpg Graphic file (type jpg)
 
 <use imgs/view/mosaicsV3/mosaic0009.jpg>
@@ -1321,7 +1495,7 @@ Package pdftex.def Info: imgs/view/mosaicsV3/mosaic0009.jpg used on input line
 42.
 (pdftex.def)             Requested size: 51.02826pt x 30.34613pt.
 
-<imgs/view/mapV3.jpg, id=135, 1927.2pt x 1204.5pt>
+<imgs/view/mapV3.jpg, id=205, 1927.2pt x 1204.5pt>
 File: imgs/view/mapV3.jpg Graphic file (type jpg)
  <use imgs/view/mapV3.jpg>
 Package pdftex.def Info: imgs/view/mapV3.jpg used on input line 45.
@@ -1341,99 +1515,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--53
 
  []
 
-) <imgs/map1834.png, id=137, 792.9625pt x 646.415pt>
+) <imgs/map1834.png, id=207, 792.9625pt x 646.415pt>
 File: imgs/map1834.png Graphic file (type png)
  <use imgs/map1834.png>
-Package pdftex.def Info: imgs/map1834.png used on input line 204.
+Package pdftex.def Info: imgs/map1834.png used on input line 317.
 (pdftex.def)             Requested size: 312.40912pt x 254.6752pt.
 File: imgs/arch/mapS2.jpg Graphic file (type jpg)
 
 <use imgs/arch/mapS2.jpg>
-Package pdftex.def Info: imgs/arch/mapS2.jpg used on input line 205.
+Package pdftex.def Info: imgs/arch/mapS2.jpg used on input line 318.
 (pdftex.def)             Requested size: 312.40912pt x 238.22423pt.
+ (./eccv2014submission.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+ [8] [9 <./imgs/arch/mapS2.jpg> <./imgs/arch/mapS3.jpg> <./imgs/arch/mosaicsS2/
+mosaic0000.jpg> <./imgs/arch/mosaicsS2/mosaic0001.jpg> <./imgs/arch/mosaicsS2/m
+osaic0002.jpg> <./imgs/arch/mosaicsS2/mosaic0003.jpg> <./imgs/arch/mosaicsS2/mo
+saic0004.jpg> <./imgs/arch/mosaicsS2/mosaic0005.jpg> <./imgs/arch/mosaicsS2/mos
+aic0006.jpg> <./imgs/arch/mosaicsS2/mosaic0007.jpg> <./imgs/arch/mosaicsS2/mosa
+ic0008.jpg> <./imgs/arch/mosaicsS2/mosaic0009.jpg> <./imgs/arch/mosaicsS3/mosai
+c0000.jpg> <./imgs/arch/mosaicsS3/mosaic0001.jpg> <./imgs/arch/mosaicsS3/mosaic
+0002.jpg> <./imgs/arch/mosaicsS3/mosaic0003.jpg> <./imgs/arch/mosaicsS3/mosaic0
+004.jpg> <./imgs/arch/mosaicsS3/mosaic0005.jpg> <./imgs/arch/mosaicsS3/mosaic00
+06.jpg> <./imgs/arch/mosaicsS3/mosaic0007.jpg> <./imgs/arch/mosaicsS3/mosaic000
+8.jpg> <./imgs/arch/mosaicsS3/mosaic0009.jpg>] [10 <./imgs/arch/mapS4.jpg> <./i
+mgs/arch/mapS1.jpg> <./imgs/arch/mosaicsS4/mosaic0000.jpg> <./imgs/arch/mosaics
+S4/mosaic0001.jpg> <./imgs/arch/mosaicsS4/mosaic0002.jpg> <./imgs/arch/mosaicsS
+4/mosaic0003.jpg> <./imgs/arch/mosaicsS4/mosaic0004.jpg> <./imgs/arch/mosaicsS4
+/mosaic0012.jpg> <./imgs/arch/mosaicsS4/mosaic0014.jpg> <./imgs/arch/mosaicsS4/
+mosaic0018.jpg> <./imgs/arch/mosaicsS4/mosaic0019.jpg> <./imgs/arch/mosaicsS4/m
+osaic0021.jpg> <./imgs/arch/mosaicsS1/mosaic0000.jpg> <./imgs/arch/mosaicsS1/mo
+saic0001.jpg> <./imgs/arch/mosaicsS1/mosaic0002.jpg> <./imgs/arch/mosaicsS1/mos
+aic0006.jpg> <./imgs/arch/mosaicsS1/mosaic0009.jpg> <./imgs/arch/mosaicsS1/mosa
+ic0018.jpg> <./imgs/arch/mosaicsS1/mosaic0021.jpg> <./imgs/arch/mosaicsS1/mosai
+c0025.jpg> <./imgs/arch/mosaicsS1/mosaic0030.jpg> <./imgs/arch/mosaicsS1/mosaic
+0032.jpg>] [11 <./imgs/vege/mapT2.jpg> <./imgs/vege/mapT1.jpg> <./imgs/vege/mos
+aicsT2/mosaic0000.jpg> <./imgs/vege/mosaicsT2/mosaic0001.jpg> <./imgs/vege/mosa
+icsT2/mosaic0002.jpg> <./imgs/vege/mosaicsT2/mosaic0003.jpg> <./imgs/vege/mosai
+csT2/mosaic0004.jpg> <./imgs/vege/mosaicsT2/mosaic0005.jpg> <./imgs/vege/mosaic
+sT2/mosaic0006.jpg> <./imgs/vege/mosaicsT2/mosaic0007.jpg> <./imgs/vege/mosaics
+T2/mosaic0008.jpg> <./imgs/vege/mosaicsT2/mosaic0009.jpg> <./imgs/vege/mosaicsT
+1/mosaic0012.jpg> <./imgs/vege/mosaicsT1/mosaic0019.jpg> <./imgs/vege/mosaicsT1
+/mosaic0020.jpg> <./imgs/vege/mosaicsT1/mosaic0035.jpg> <./imgs/vege/mosaicsT1/
+mosaic0043.jpg> <./imgs/vege/mosaicsT1/mosaic0047.jpg> <./imgs/vege/mosaicsT1/m
+osaic0079.jpg> <./imgs/vege/mosaicsT1/mosaic0080.jpg> <./imgs/vege/mosaicsT1/mo
+saic0042.jpg> <./imgs/vege/mosaicsT1/mosaic0048.jpg>] [12 <./imgs/view/mapV1.jp
+g> <./imgs/view/mapV3.jpg> <./imgs/view/mosaicsV1/mosaic0000.jpg> <./imgs/view/
+mosaicsV1/mosaic0001.jpg> <./imgs/view/mosaicsV1/mosaic0002.jpg> <./imgs/view/m
+osaicsV1/mosaic0003.jpg> <./imgs/view/mosaicsV1/mosaic0004.jpg> <./imgs/view/mo
+saicsV1/mosaic0005.jpg> <./imgs/view/mosaicsV1/mosaic0006.jpg> <./imgs/view/mos
+aicsV1/mosaic0007.jpg> <./imgs/view/mosaicsV1/mosaic0008.jpg> <./imgs/view/mosa
+icsV1/mosaic0009.jpg> <./imgs/view/mosaicsV3/mosaic0000.jpg> <./imgs/view/mosai
+csV3/mosaic0001.jpg> <./imgs/view/mosaicsV3/mosaic0002.jpg> <./imgs/view/mosaic
+sV3/mosaic0003.jpg> <./imgs/view/mosaicsV3/mosaic0004.jpg> <./imgs/view/mosaics
+V3/mosaic0005.jpg> <./imgs/view/mosaicsV3/mosaic0006.jpg> <./imgs/view/mosaicsV
+3/mosaic0007.jpg> <./imgs/view/mosaicsV3/mosaic0008.jpg> <./imgs/view/mosaicsV3
+/mosaic0009.jpg>] [13 <./imgs/map1834.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+ (./eccv2014submission.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package rerunfilecheck Info: File `eccv2014submission.out' has not changed.
+(rerunfilecheck)             Checksum: 64D5243CF6F6512AD10F59087F535A15;133.
 
-No file eccv2014submission.bbl.
-[5] [6 <./imgs/arch/mapS2.jpg> <./imgs/arch/mapS3.jpg> <./imgs/arch/mosaicsS2/m
-osaic0000.jpg> <./imgs/arch/mosaicsS2/mosaic0001.jpg> <./imgs/arch/mosaicsS2/mo
-saic0002.jpg> <./imgs/arch/mosaicsS2/mosaic0003.jpg> <./imgs/arch/mosaicsS2/mos
-aic0004.jpg> <./imgs/arch/mosaicsS2/mosaic0005.jpg> <./imgs/arch/mosaicsS2/mosa
-ic0006.jpg> <./imgs/arch/mosaicsS2/mosaic0007.jpg> <./imgs/arch/mosaicsS2/mosai
-c0008.jpg> <./imgs/arch/mosaicsS2/mosaic0009.jpg> <./imgs/arch/mosaicsS3/mosaic
-0000.jpg> <./imgs/arch/mosaicsS3/mosaic0001.jpg> <./imgs/arch/mosaicsS3/mosaic0
-002.jpg> <./imgs/arch/mosaicsS3/mosaic0003.jpg> <./imgs/arch/mosaicsS3/mosaic00
-04.jpg> <./imgs/arch/mosaicsS3/mosaic0005.jpg> <./imgs/arch/mosaicsS3/mosaic000
-6.jpg> <./imgs/arch/mosaicsS3/mosaic0007.jpg> <./imgs/arch/mosaicsS3/mosaic0008
-.jpg> <./imgs/arch/mosaicsS3/mosaic0009.jpg>] [7 <./imgs/arch/mapS4.jpg> <./img
-s/arch/mapS1.jpg> <./imgs/arch/mosaicsS4/mosaic0000.jpg> <./imgs/arch/mosaicsS4
-/mosaic0001.jpg> <./imgs/arch/mosaicsS4/mosaic0002.jpg> <./imgs/arch/mosaicsS4/
-mosaic0003.jpg> <./imgs/arch/mosaicsS4/mosaic0004.jpg> <./imgs/arch/mosaicsS4/m
-osaic0012.jpg> <./imgs/arch/mosaicsS4/mosaic0014.jpg> <./imgs/arch/mosaicsS4/mo
-saic0018.jpg> <./imgs/arch/mosaicsS4/mosaic0019.jpg> <./imgs/arch/mosaicsS4/mos
-aic0021.jpg> <./imgs/arch/mosaicsS1/mosaic0000.jpg> <./imgs/arch/mosaicsS1/mosa
-ic0001.jpg> <./imgs/arch/mosaicsS1/mosaic0002.jpg> <./imgs/arch/mosaicsS1/mosai
-c0006.jpg> <./imgs/arch/mosaicsS1/mosaic0009.jpg> <./imgs/arch/mosaicsS1/mosaic
-0018.jpg> <./imgs/arch/mosaicsS1/mosaic0021.jpg> <./imgs/arch/mosaicsS1/mosaic0
-025.jpg> <./imgs/arch/mosaicsS1/mosaic0030.jpg> <./imgs/arch/mosaicsS1/mosaic00
-32.jpg>] [8 <./imgs/vege/mapT2.jpg> <./imgs/vege/mapT1.jpg> <./imgs/vege/mosaic
-sT2/mosaic0000.jpg> <./imgs/vege/mosaicsT2/mosaic0001.jpg> <./imgs/vege/mosaics
-T2/mosaic0002.jpg> <./imgs/vege/mosaicsT2/mosaic0003.jpg> <./imgs/vege/mosaicsT
-2/mosaic0004.jpg> <./imgs/vege/mosaicsT2/mosaic0005.jpg> <./imgs/vege/mosaicsT2
-/mosaic0006.jpg> <./imgs/vege/mosaicsT2/mosaic0007.jpg> <./imgs/vege/mosaicsT2/
-mosaic0008.jpg> <./imgs/vege/mosaicsT2/mosaic0009.jpg> <./imgs/vege/mosaicsT1/m
-osaic0012.jpg> <./imgs/vege/mosaicsT1/mosaic0019.jpg> <./imgs/vege/mosaicsT1/mo
-saic0020.jpg> <./imgs/vege/mosaicsT1/mosaic0035.jpg> <./imgs/vege/mosaicsT1/mos
-aic0043.jpg> <./imgs/vege/mosaicsT1/mosaic0047.jpg> <./imgs/vege/mosaicsT1/mosa
-ic0079.jpg> <./imgs/vege/mosaicsT1/mosaic0080.jpg> <./imgs/vege/mosaicsT1/mosai
-c0042.jpg> <./imgs/vege/mosaicsT1/mosaic0048.jpg>] [9 <./imgs/view/mapV1.jpg> <
-./imgs/view/mapV3.jpg> <./imgs/view/mosaicsV1/mosaic0000.jpg> <./imgs/view/mosa
-icsV1/mosaic0001.jpg> <./imgs/view/mosaicsV1/mosaic0002.jpg> <./imgs/view/mosai
-csV1/mosaic0003.jpg> <./imgs/view/mosaicsV1/mosaic0004.jpg> <./imgs/view/mosaic
-sV1/mosaic0005.jpg> <./imgs/view/mosaicsV1/mosaic0006.jpg> <./imgs/view/mosaics
-V1/mosaic0007.jpg> <./imgs/view/mosaicsV1/mosaic0008.jpg> <./imgs/view/mosaicsV
-1/mosaic0009.jpg> <./imgs/view/mosaicsV3/mosaic0000.jpg> <./imgs/view/mosaicsV3
-/mosaic0001.jpg> <./imgs/view/mosaicsV3/mosaic0002.jpg> <./imgs/view/mosaicsV3/
-mosaic0003.jpg> <./imgs/view/mosaicsV3/mosaic0004.jpg> <./imgs/view/mosaicsV3/m
-osaic0005.jpg> <./imgs/view/mosaicsV3/mosaic0006.jpg> <./imgs/view/mosaicsV3/mo
-saic0007.jpg> <./imgs/view/mosaicsV3/mosaic0008.jpg> <./imgs/view/mosaicsV3/mos
-aic0009.jpg>] [10 <./imgs/map1834.png>] (./eccv2014submission.aux)
 
 LaTeX Warning: There were undefined references.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 4968 strings out of 493493
- 74516 string characters out of 3143798
- 157430 words of memory out of 3000000
- 8100 multiletter control sequences out of 15000+200000
- 12037 words of font info for 46 fonts, out of 3000000 for 9000
+ 8507 strings out of 493307
+ 128453 string characters out of 6139906
+ 240333 words of memory out of 5000000
+ 11713 multiletter control sequences out of 15000+600000
+ 12346 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,11n,35p,1086b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,35p,1086b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont
-/line10.pfb>
-Output written on eccv2014submission.pdf (10 pages, 10500748 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on eccv2014submission.pdf (13 pages, 18755064 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 515 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 533 words of extra memory for PDF output out of 10000 (max. 10000000)
 

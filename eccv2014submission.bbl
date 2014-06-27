@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{doersch12}
+Doersch, C., Singh, S., Gupta, A., Sivic, J., Efros, A.A.:
+\newblock What makes paris look like paris?
+\newblock {SIGGRAPH} \textbf{31}(4) (2012)
+
+\bibitem{csurka04}
+Csurka, G., Bray, C., Dance, C., Fan, L.:
+\newblock Visual categorization with bags of keypoints.
+\newblock In: Workshop on Statistical Learning in Computer Vision, ECCV. (2004)
+   1--22
+
+\bibitem{gronat13}
+Gronat, P., Obozinski, G., Sivic, J., Pajdla, T.:
+\newblock Learning and calibrating per-location classifiers for visual place
+  recognition.
+\newblock In: CVPR. (2013)
+
+\end{thebibliography}
