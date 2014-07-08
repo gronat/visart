@@ -1,0 +1,21 @@
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[t]
+   \centering
+   {\tiny
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{m{1.5cm}|m{4.9cm}|m{4.9cm}} % Column formatting, @{} suppresses leading/trailing space
+      %\cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+          & {\bf Monumental} & {\bf Classical residential} \\
+          \hline\hline
+         History       &  not an age-based homogeneous style built before 1920 
+      &  not an age-based homogeneous style built before 1920 \\
+      Original use       & religious or civil architecture  & 92.50 \\
+      Current use       & cult, monumental, museums, prestigious commercial activities (banks, etc.)  & commercial premises on ground floor, and mainly apartments in the upper floors \\
+      Features & volume non just parallelepiped, towers, ornaments, columns, steep slope roofs, domes, etc.     &  volume is parallelepiped, eclectic and neoclassic ornaments, iron balconies, straight windows (high>width) \\
+     % \bottomrule
+   \end{tabular}
+   }
+   \vspace{1mm}
+   \caption{Monumental vs. Classical residential. Definition of prevailing styles relevant for the city of Madrid}
+   \label{tab:monumental_classical}
+\end{table}

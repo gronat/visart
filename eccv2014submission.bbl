@@ -1,20 +1,73 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{doersch12}
+\bibitem{Knopp10}
+Knopp, J., Sivic, J., Pajdla, T.:
+\newblock Avoidng confusing features in place recognition.
+\newblock (2010)
+
+\bibitem{Torii11}
+Torii, A., Sivic, J., Pajdla, T.:
+\newblock Visual localization by linear combination of image descriptors.
+\newblock In: Proceedings of the 2nd IEEE Workshop on Mobile Vision, with ICCV
+  2011. (2011)
+
+\bibitem{Gronat11}
+Gronat, P., Havlena, M., Sivic, J., Pajdla, T.:
+\newblock Building streetview datasets for place recognition and city
+  reconstruction.
+\newblock In: Technical Report. (2011)
+
+\bibitem{Havlena09}
+Havlena, M., Torii, A., Knopp, J., Pajdla, T.:
+\newblock Randomized structure from motion based on atomic {3D} models from
+  camera triplets.
+\newblock (2009)  2874--2881
+
+\bibitem{Zamir11}
+Zamir, A., Darino, A., Shah, M.:
+\newblock Street view challenge: Identification of commercial entities in
+  street view imagery.
+\newblock In: Machine Learning and Applications and Workshops (ICMLA), 2011
+  10th International Conference on. Volume~2., IEEE (2011)  380--383
+
+\bibitem{Doersch12}
 Doersch, C., Singh, S., Gupta, A., Sivic, J., Efros, A.A.:
 \newblock What makes paris look like paris?
-\newblock {SIGGRAPH} \textbf{31}(4) (2012)
+\newblock \textbf{31}(4) (2012)
 
-\bibitem{csurka04}
+\bibitem{Gronat13}
+Gronat, P., Obozinski, G., Sivic, J., Pajdla, T.:
+\newblock Learning and calibrating per-location classifiers for visual place
+  recognition.
+\newblock (2013)
+
+\bibitem{Mathias11}
+Mathias, M., Martinovic, A., Weissenberg, J., Haegler, S., Van~Gool, L.:
+\newblock Automatic architectural style recognition.
+\newblock ISPRS-International Archives of the Photogrammetry, Remote Sensing
+  and Spatial Information Sciences (2011)
+
+\bibitem{Csurka04}
 Csurka, G., Bray, C., Dance, C., Fan, L.:
 \newblock Visual categorization with bags of keypoints.
 \newblock In: Workshop on Statistical Learning in Computer Vision, ECCV. (2004)
    1--22
 
-\bibitem{gronat13}
-Gronat, P., Obozinski, G., Sivic, J., Pajdla, T.:
-\newblock Learning and calibrating per-location classifiers for visual place
-  recognition.
-\newblock In: CVPR. (2013)
+\bibitem{Sivic03}
+Sivic, J., Zisserman, A.:
+\newblock {Video Google}: {A} text retrieval approach to object matching in
+  videos.
+\newblock In: Proceedings of the International Conference on Computer Vision.
+  Volume~2. (October 2003)  1470--1477
+
+\bibitem{vedaldi08vlfeat}
+Vedaldi, A., Fulkerson, B.:
+\newblock Vlfeat: An open and portable library of computer vision algorithms.
+\newblock \url{http://www.vlfeat.org/} (2008)
+
+\bibitem{liblinear}
+Fan, R.E., Chang, K.W., Hsieh, C.J., Wang, X.R., Lin, C.J.:
+\newblock {LIBLINEAR}: A library for large linear classification.
+\newblock Journal of Machine Learning Research \textbf{9} (2008)  1871--1874
 
 \end{thebibliography}

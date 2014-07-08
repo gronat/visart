@@ -1,0 +1,19 @@
+  % Requires the booktabs if the memoir class is not being used
+  \begin{table}[htbp]
+     \centering
+     {\tiny
+     %\topcaption{Table captions are better up top} % requires the topcapt package
+     \begin{tabular}{m{1.5cm}|m{4.9cm}|m{4.9cm}} % Column formatting, @{} suppresses leading/trailing space
+        %\cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+            & {\bf Contemporary residential } & {\bf Contemporary non-residential} \\
+            \hline\hline
+           History       &  built after 1920 & built after 1920 \\
+        Original use       & residential & tertiary use, sport stadium, educational, offices, hotels, both private and public buildings\\
+        Current use       &residential & same as original use \\
+        Features & brick or concrete façades, wide windows (width>=high), parallelepiped volumes, flat roofs  &  steel and glass architecture, concrete \\
+       % \bottomrule
+     \end{tabular}
+     }
+     \caption{Contemporary residential vs. Contemporary non-residential}
+     \label{tab:residential_nonresidential}
+  \end{table}
